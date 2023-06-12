@@ -66,8 +66,6 @@ public class MainActivity extends AppCompatActivity {
                 }).check();
     }
 
-
-
     public ArrayList<File> findSong(File file) {
         ArrayList<File> arrayList = new ArrayList<>();
 

@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
                         displaySongs();
                     }
 
+
                     @Override
                     public void onPermissionRationaleShouldBeShown(List<PermissionRequest> list, PermissionToken permissionToken) {
                         permissionToken.continuePermissionRequest();
